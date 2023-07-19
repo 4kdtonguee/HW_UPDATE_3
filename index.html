@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEEK 2</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <table id="table">
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Admin</th>
+        <th>Image</th>
+      </tr>
+
+      <tr>
+        <td>First User</td>
+        <td>FirstUser@email.com</td>
+        <td>first address123</td>
+        <td>X</td>
+      </tr>
+
+      <tr>
+        <td>Second User</td>
+        <td>SecondUser@email.com</td>
+        <td>second address 123</td>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <td>Third User</td>
+        <td>ThirdUser@email.com</td>
+        <td>Third Address 123</td>
+        <td>-</td>
+      </tr>
+    </table>
+
+  <form id="user-add-data">
+    <textarea id = "input-username"> Username</textarea>
+    <textarea id = "input-email"> Email </textarea>
+    <textarea id = "input-address" > Address </textarea>
+    <input type = "file" id ="input-image">
+
+
+
+    <legend>Checbox for the admin</legend>
+    <input type="checkbox" id="input-admin" checked>
+    
+    <br>
+      <button id = "submit-data"> Submit data </button>
+      <button id = "empty-table"> Empty table </button>
+    </br>
+
+  </form>
+    <script src="src/index.js"></script>
+  </body>
+</html>
